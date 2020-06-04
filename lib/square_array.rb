@@ -2,10 +2,9 @@ require "pry"
 
 
 def square_array(array)
-  count = 0
-  while count>array.length do
-    array[count]
-    count*coun
-  end
-  array
+  new_array = []
+ array.length.times do |i| new_array<< array[i]**2
+
+end
+new_array
 end
